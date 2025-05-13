@@ -1,0 +1,113 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #707070;
+  border: 1px solid #707070;
+  color: white;
+  text-align: center;
+  height: 399px;
+  align-content: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+.hero .hero-content span {
+  font-size: 24px;
+}
+.hero .hero-content h1 {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-size: 45px;
+}
+.hero .hero-content p {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.hero .hero-content .buttons {
+  display: flex;
+  justify-content: space-between; /* distribui os botões com espaçamento */
+  width: 835px; /* ou o tamanho que deixar os botões maiores que o parágrafo */
+  margin: 50px auto 60px auto; /* centraliza horizontalmente */
+}
+.hero .hero-content button {
+  width: 185px; /* largura fixa igual para todos */
+  padding: 15px 0;
+  font-size: 15px;
+  background-color: white;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 3px;
+}
+
+.area-form {
+  margin-left: 195px;
+  display: flex;
+}
+.area-form .content {
+  width: 750px;
+}
+.area-form .content h1 {
+  margin: 5px auto;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #888888;
+  font-weight: 500;
+}
+.area-form .content p {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-bottom: 27px;
+  color: #888888;
+}
+.area-form .formulario {
+  max-width: 750px;
+  width: 100%;
+  padding: 25px 0px 0px 100px;
+}
+.area-form .formulario input {
+  width: 55%;
+  padding: 6px;
+  margin-top: 7px;
+  outline: none;
+  border: 1px solid #bbb;
+}
+.area-form .formulario label {
+  margin: 0 10px;
+}
+.area-form .formulario input#Mas, .area-form .formulario input#Fem {
+  width: 20px;
+}
+.area-form .formulario button {
+  width: 55%;
+  background-color: white;
+  padding: 10px 18px;
+  outline: none;
+  border: 2px solid #bbb;
+}
+
+section .division {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+section .division span {
+  margin: 8px 28px;
+}
+section .division::before, section .division::after {
+  content: "";
+  display: block;
+  width: 380px;
+  height: 3px;
+  background-color: #ccc;
+  margin: 20px 0;
+}/*# sourceMappingURL=base.css.map */
