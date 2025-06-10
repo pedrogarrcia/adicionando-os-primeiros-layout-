@@ -12,7 +12,7 @@
             data.products.forEach(produto => {
                 const li = document.createElement('li')
                 li.innerHTML = `
-                    <img src="${produto.image}" alt="${produto.name}">
+                    <img src="https:${produto.image}" alt="${produto.name}">
                     <h2 class="productName">${produto.name}</h2>
                     <p class="productDescription">${produto.description}</p>
                     <p class="prices">
