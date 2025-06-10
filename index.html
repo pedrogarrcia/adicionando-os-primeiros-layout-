@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 
 <body>
     <header class="hero">
@@ -47,26 +47,26 @@
         <form class="formulario">
             <label for="">
                 Seu nome: <br>
-                <input type="text">
+                <input type="text" id="inputName1">
             </label><br><br>
 
             <label for="">
                 E-mail: <br>
-                <input type="text">
+                <input type="text" id="inputEmail1">
             </label><br><br>
 
             <label for="">
                 CPF: <br>
-                <input type="number">
+                <input type="inputCPF1" id="inputCPF1">
             </label><br><br>
 
-            <input type="radio" name="Masculino" id="Mas">
+            <input type="radio" name="sexo" id="Mas" value="Masculino">
             <label for="Mas">Masculino</label>
 
-            <input type="radio" name="Feminino" id="Fem">
+            <input type="radio" name="sexo" id="Fem" value="Feminino">
             <label for="Fem">Feminino</label> <br><br>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" id="button1">Enviar</button>
         </form>
     </section>
     <section class="products">
@@ -75,12 +75,16 @@
         </div>
 
         <div class="products-list">
-            <ul class="ulList">
-            </ul>
+            <ul class="ulList"></ul>
+        </div>
+
+<!-- Repete até produto8 -->
+
+
         </div>
     </section>
     <div class="containerButton">
-        <button id="button">Ainda mais produtos aqui</button>
+        <button id="buttonNextPage">Ainda mais produtos aqui</button>
     </div>
     <section class="end">
         <div class="divider">

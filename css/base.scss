@@ -112,6 +112,10 @@ body {
             outline: none;
             border: 2px solid #bbb;
         }
+
+        .error {
+            border: 1px solid black;
+        }
     }
 }
 
@@ -138,6 +142,7 @@ body {
     }
 
     .products-list {
+        font-family: "Kumbh Sans", sans-serif;
         display: flex;
         justify-content: center;
 
@@ -151,15 +156,27 @@ body {
             li {
                 color: #888888;
                 margin: 23px;
+                color: #888888;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
                 a {
-                    display: inline-block;
                     width: 200px;
                     height: 150px;
                     border: 1px solid #888888;
                 }
             }
         }
+
+         .mensagem-erro {
+            color: black;
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
     }
 
     .productName {
@@ -168,13 +185,13 @@ body {
     }
 
     .productDescription {
-        font-size: 12px;
+        font-size: 15px;
         margin: 10px 0;
     }
 
     .prices {
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 21px;
         width: 200px;
 
         .currentPrice {
@@ -188,7 +205,7 @@ body {
         }
     }
 
-    .button {
+    button {
         width: 200px;
         color: #888888;
         background-color: white;
@@ -202,7 +219,7 @@ body {
     display: flex;
     justify-content: center;
 
-    #button {
+    #buttonNextPage {
         margin: 40px auto;
         width: 277px;
         color: #888888;
@@ -270,6 +287,10 @@ body {
                     color: #888888;
                     background-color: white;
                 }
+
+                 .error {
+                    border: 1px solid black;
+                 }
             }
         }
 
@@ -282,6 +303,7 @@ body {
             color: #888888;
             background-color: white;
         }
+
     }        
 }
 
